@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PolyChat
+AI chat application supporting multiple language models in one interface.
 
-## Getting Started
+## Features
+- **Authentication**
+  - Login/Signup with API key management
+  - Guest mode with limited access
 
-First, run the development server:
+- **Models**
+  - Multiple AI models (with API keys)
+  - Local Ollama model integration
+  - Customizable parameters (MaxTokens, Temperature, TopP, TopK)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Customization**
+  - Create custom AI assistants
+  - Save reusable prompt templates
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Advanced Capabilities**
+  - Image upload and analysis
+  - Audio transcription
+  - Web search integration
+  - Follow-up questions on highlighted text
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Management**
+  - Chat history
+  - Import/Export data
+  - Clear sessions
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Web Search Options**
+  - Google (requires API key)
+  - DuckDuckGo (no key required)
